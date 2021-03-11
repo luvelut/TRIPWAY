@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/jaune_pastel"
+        android:gravity="center"
+        android:text="@string/welcome_home"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="center"
+        android:src="@drawable/home_image"
+        app:layout_constraintBottom_toTopOf="@+id/tv1_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome" />
+
+    <TextView
+        style=""
+        android:id="@+id/tv1_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/bleu_pastel"
+        android:gravity="center"
+        android:text="@string/text1_home"
+        android:textStyle="bold"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv2_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/tv2_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/bleu_pastel"
+        android:gravity="center"
+        android:text="@string/text2_home"
+        android:textStyle="bold"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv3_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv3_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/bleu_pastel"
+        android:gravity="center"
+        android:text="@string/text3_home"
+        android:textStyle="bold"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TripWay</string>
+    <string name="mes_carnets">Mes Carnets de Voyage</string>
+
+
+    <!-- BOTTOM NAVIGATION BAR -->
+    <string name="bottom_navigation_home">HOME</string>
+    <string name="bottom_navigation_logs">CARNETS</string>
+    <string name="bottom_navigation_create">AJOUTER</string>
+    <string name="bottom_navigation_map">CARTE</string>
+
+
+    <!-- HOME PAGE -->
+    <string name="welcome_home">Bienvenue !</string>
+    <string name="text1_home">L\'onglet map vous permet de voir sur la carte du monde les voyages que vous avez effectués.</string>
+    <string name="text2_home">L\'onglet carnets vous permet d\'avoir la liste des carnets de voyages que vous avez écrits.</string>
+    <string name="text3_home">L\'onglet ajouter vous permet de créer un carnet immagé sur un de vos voyages.</string>
+
+
+</resources>
